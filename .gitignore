@@ -1,0 +1,10 @@
+# Build output — main.js is attached to GitHub releases via GitHub Actions,
+# not committed to the repo directly.
+main.js
+
+# Node.js dependencies — reinstall with npm install
+node_modules/
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+data.json

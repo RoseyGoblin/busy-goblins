@@ -1,0 +1,10 @@
+{
+  "id": "busy-goblins",
+  "name": "Busy Goblins",
+  "version": "0.1.0",
+  "minAppVersion": "1.7.2",
+  "description": "Build reusable chains of AI operations on your notes. Process, write, and rewrite Markdown files using a local Ollama model, then save your workflows as presets and run them in one click.",
+  "author": "RoseyGoblin",
+  "authorUrl": "https://github.com/RoseyGoblin",
+  "isDesktopOnly": true
+}
