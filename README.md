@@ -111,6 +111,10 @@ The `FolderSuggest` component is adapted from [Synod](https://github.com/slaymis
 
 ---
 
+## Support
+
+If you find Busy Goblins useful, you can [buy me a coffee](https://ko-fi.com/roseygoblin).
+
 ## Licence
 
 MIT — see [LICENSE](LICENSE)
