@@ -8,11 +8,13 @@ on:
     tags:
       - '[0-9]+.[0-9]+.[0-9]+'
 
-# contents: write — create releases and upload assets
-# id-token: write — required for artifact attestation
+# contents: write    — create releases and upload assets
+# id-token: write    — required for artifact attestation
+# attestations: write — required to persist attestation records
 permissions:
   contents: write
   id-token: write
+  attestations: write
 
 jobs:
   build:
@@ -43,11 +45,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Attest main.js provenance
-        uses: actions/attest-build-provenance@v1
+        uses: actions/attest-build-provenance@v2
         with:
           subject-path: main.js
 
       - name: Attest styles.css provenance
-        uses: actions/attest-build-provenance@v1
+        uses: actions/attest-build-provenance@v2
         with:
           subject-path: styles.css
