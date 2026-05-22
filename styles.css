@@ -780,7 +780,8 @@
 /* Applied programmatically via addClass/removeClass.
    !important ensures it overrides any display: flex or
    display: block set by other classes on the same element. */
-.bg-hidden { display: none !important; }
+.busy-goblins-panel .bg-hidden,
+.modal-content .bg-hidden { display: none; }
 
 
 /* ── Destination sub-sections ────────────────────── */
