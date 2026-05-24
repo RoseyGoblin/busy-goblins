@@ -22,7 +22,7 @@ A chain you build once can be saved as a **preset** and reused forever.
 
 ## Installation
 
-### From the community store *(once listed)*
+### From the community store 
 
 1. Open Obsidian → Settings → Community plugins → Browse
 2. Search for **Busy Goblins**
